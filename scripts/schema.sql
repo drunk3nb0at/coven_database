@@ -98,7 +98,21 @@ INSERT INTO resources (domain_slug, media_type, title, title_original, authors, 
 ('intimacy', 'anthology', '强制异性恋与女同性恋存在', 'Compulsory Heterosexuality and Lesbian Existence', ARRAY['Adrienne Rich'], 1980,
  ARRAY['强制异性恋','酷儿理论'],
  '「强制异性恋」是一种政治制度而非自然倾向，系统性地抹除了女性之间的亲密联结。',
- '{"Google Scholar":"https://scholar.google.com/scholar?q=compulsory+heterosexuality+adrienne+rich","Sci-Hub":"https://sci-hub.se"}'::jsonb),
+ '{"豆瓣":"https://book.douban.com/subject/26892561/","Goodreads":"https://www.goodreads.com/book/show/85770"}'::jsonb),
+
+
+(
+  'intimacy',
+  'anthology',
+  '无浪漫与无性恋的旅程',
+  'Aro and Ace Journey',
+  ARRAY [ 'The Ace and Aro Advocacy Project' ],
+  2023,
+  ARRAY [
+  '酷儿理论', '无浪漫无性恋研究'],
+  '第一本拥抱无浪漫身份与无性恋身份的指南',
+  '{"豆瓣":"https://book.douban.com/subject/36513437/","Goodreads":"https://www.goodreads.com/book/show/63896177-ace-and-aro-journeys"}':: jsonb
+),
 
 -- labor
 ('labor', 'monograph', '卡利班与女巫', 'Caliban and the Witch', ARRAY['Silvia Federici'], 2004,
